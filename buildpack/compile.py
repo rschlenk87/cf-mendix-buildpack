@@ -176,4 +176,4 @@ if __name__ == "__main__":
     datadog.compile(DOT_LOCAL_LOCATION, CACHE_DIR)
     runtime.compile(BUILD_DIR, CACHE_DIR)
     nginx.compile(BUILD_DIR, CACHE_DIR)
-    logging.info("Mendix Cloud Foundry Buildpack compile completed")
+    logging.info("Volkswagen GroupIT-Cloud Mendix Buildpack compile completed")
