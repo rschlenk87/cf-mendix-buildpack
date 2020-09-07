@@ -9,7 +9,7 @@ CACHE_PATH=$2
 VERSION=$(cat $BUILDPACK_PATH/.version | tr -d '[:space:]')
 COMMIT=$(cat $BUILDPACK_PATH/.commit | tr -d '[:space:]')
 
-echo " ---> Mendix Cloud Foundry Buildpack $VERSION [$COMMIT] compiling..."
+echo " ---> Volkswagen GroupIT-Cloud Mendix Buildpack $VERSION [$COMMIT] compiling..."
 
 # Bootstrap the Python dependencies needed for the buildpack
 source ${BUILDPACK_PATH}/bin/bootstrap-python
